@@ -16,8 +16,7 @@ pipeline{
 		stage('Deploy') {
 			steps {
 				input 'Do you want to aprove the deployment?'
-				sh 'cp target/*.jar /opt/web'
-				sh "java -jar /opt/web/*.jar"
+				sh "java -jar target/*.jar"
 			}
 		}
 	}
