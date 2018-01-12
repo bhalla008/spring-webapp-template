@@ -16,8 +16,8 @@ pipeline{
 		stage('Deploy') {
 			steps {
 				input 'Do you want to aprove the deployment?'
-				sh 'scp -i /home/ec2-user/jenkins-pipeline.pem target/*.jar jenkins@ec2-35-165-245-44.us-west-2.compute.amazonaws.com:/opt/web'
-				sh "ssh -i /home/ec2-user/jenkins-pipeline.pem jenkins@ec2-35-165-245-44.us-west-2.compute.amazonaws.com 'nohup java -jar /opt/web/*.jar &'"
+				sh 'cp target/*.jar /opt/web'
+				sh "java -jar /opt/web/*.jar"
 			}
 		}
 	}
