@@ -1,6 +1,6 @@
 ## What is this?
 
-This is a web application template project using spring.
+This is a web application template project using spring.--Ashok
 
 This is considered to be used as template project in STS 3+. Please look at [GettingStarted][1].
 
