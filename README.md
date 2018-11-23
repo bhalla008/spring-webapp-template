@@ -1,4 +1,4 @@
-## What is this? Edited
+## What is this?
 
 This is a web application template project using spring.--Ashok
 
