@@ -1,5 +1,5 @@
 pipeline{
-	agent none
+	agent { label 'avengers' }
 	tools {
 		maven 'M3'
 	}
@@ -10,7 +10,6 @@ pipeline{
 			}
 		}
 		stage ('Build') {
-			agent { label 'avengers' }
 			steps {
 				sh 'mvn clean package'
 				junit '**/target/surefire-reports/TEST-*.xml'
