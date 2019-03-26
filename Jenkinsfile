@@ -1,5 +1,8 @@
 pipeline{
-	agent any
+	agent none
+	tools {
+		maven 'M3'
+	}
 	stages {
 		stage ('Checkout') {
 			steps {
@@ -7,16 +10,10 @@ pipeline{
 			}
 		}
 		stage ('Build') {
-			agent { docker 'maven:3.5-alpine' }
+			agent { label 'avengers' }
 			steps {
 				sh 'mvn clean package'
 				junit '**/target/surefire-reports/TEST-*.xml'
-			}
-		}
-		stage('Deploy') {
-			steps {
-				input 'Do you want to aprove the deployment?'
-				sh "java -jar target/*.jar"
 			}
 		}
 	}
