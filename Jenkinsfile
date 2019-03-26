@@ -2,6 +2,7 @@ pipeline{
 	agent { label 'avengers' }
 	tools {
 		maven 'M3'
+		jdk 'jdk'
 	}
 	stages {
 		stage ('Checkout') {
