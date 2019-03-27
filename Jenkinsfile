@@ -1,5 +1,5 @@
 pipeline{
-	agent { label 'avengers' }
+	agent { label 'ec2-fleet' }
 	tools {
 		maven 'M3'
 		jdk 'jdk'
