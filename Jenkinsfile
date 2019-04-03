@@ -2,7 +2,7 @@ pipeline{
 	agent { label 'ec2-fleet-linux' }
 	tools {
 		maven 'M3'
-		jdk 'jdk'
+		jdk 'JDK8'
 	}
 	stages {
 		stage ('Clone the Repo') {
