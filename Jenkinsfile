@@ -7,7 +7,7 @@ pipeline{
 	stages {
 		stage ('Clone the Repo') {
 			steps {
-				git 'https://github.com/ashokshingade24/spring-webapp-template.git'
+				git 'https://ashokshingade24@bitbucket.org/ashokshingade24/webapp_maven_deploy.git'
 			}
 		}
 		stage ('Compile') {
