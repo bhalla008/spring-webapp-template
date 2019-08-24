@@ -15,7 +15,7 @@
         <snapshotRepository>
         <id>maven-snapshots</id>
         <name>plugins-snapshot</name>
-        <url>http://34.67.68.53:8081/repository/maven-snapshots/</url>
+        <url>http://18.220.160.96:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
     </distributionManagement>
     <build>
