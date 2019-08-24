@@ -12,6 +12,11 @@
             <name>releases</name>
             <url>http://34.67.68.53:8081/repository/maven-central/</url>
         </repository>
+        <snapshotRepository>
+        <id>maven-snapshots</id>
+        <name>plugins-snapshot</name>
+        <url>http://34.67.68.53:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
     </distributionManagement>
     <build>
         <plugins>
