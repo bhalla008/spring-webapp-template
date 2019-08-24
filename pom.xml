@@ -124,6 +124,11 @@
             <name>Project Amateras Maven2 Repository</name>
             <url>http://amateras.sourceforge.jp/mvn/</url>
         </repository>
+        <repository>
+            <id>internal.repo</id>
+            <name>MyCo Internal Repository</name>
+            <url>http://34.67.68.53:8081</url>
+        </repository>
     </repositories>
     <dependencies>
         <!-- == Begin Google == -->
