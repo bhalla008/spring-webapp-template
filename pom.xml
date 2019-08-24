@@ -8,9 +8,9 @@
     <version>1.0.0-SNAPSHOT</version>
     <distributionManagement>
         <repository>
-            <id>maven-releases</id>
+            <id>maven-central</id>
             <name>releases</name>
-            <url>http://34.67.68.53:8081/repository/maven-releases</url>
+            <url>http://34.67.68.53:8081/repository/maven-central/</url>
         </repository>
     </distributionManagement>
     <build>
