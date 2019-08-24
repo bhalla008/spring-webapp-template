@@ -126,9 +126,9 @@
         </repository>
       <distributionManagement>
         <repository>
-            <id>internal.repo</id>
-            <name>MyCo Internal Repository</name>
-            <url>http://34.67.68.53:8081</url>
+            <id>maven-releases</id>
+            <name>releases</name>
+            <url>http://34.67.68.53:8081/repository/maven-releases/</url>
         </repository>
       </distributionManagement>
     </repositories>
