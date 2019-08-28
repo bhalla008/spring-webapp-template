@@ -7,10 +7,10 @@
     <packaging>war</packaging>
     <version>1.0.0-SNAPSHOT</version>
     <distributionManagement>
-        <snapshotRepository>
-        <id>maven-snapshots</id>
-        <name>plugins-snapshot</name>
-        <url>http://18.220.160.96:8081/repository/maven-snapshots/</url>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>localhost-snapshots</name>
+        <url>http://3.17.76.161:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
     </distributionManagement>
     <build>
