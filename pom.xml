@@ -10,7 +10,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>localhost-snapshots</name>
-        <url>http://3.17.76.161:8081/artifactory/libs-snapshot</url>
+        <url>http://3.17.76.161:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
     </distributionManagement>
     <build>
