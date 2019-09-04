@@ -104,7 +104,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>${org.apache.maven.plugins.maven-war-plugin.version}</version>
                 <configuration>
-                    <warName>${project.artifactId}</warName>
+                    <warName>spring-webapp-template</warName>
                 </configuration>
             </plugin>
             <plugin>
